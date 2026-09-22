@@ -4,6 +4,8 @@ import {
   FaMapMarkerAlt,
   FaMobileAlt,
   FaRegCalendarAlt,
+  FaTelegram,
+  FaDiscord,
 } from "react-icons/fa";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -43,18 +45,19 @@ const About = () => {
                   {/* About me information */}
                   <div className=" md:mr-12 xl:mr-16">
                     <h3 className="text-4xl font-medium dark:text-white mb-2.5 ">
-                      Who am i?
+                      Who am I?
                     </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                      A highly skilled AI developer with 10+ years of experience in 
+                      developing and deploying production AI systems end to end.
+
+                      My expertise lies in Generative AI, RAG, and Data Science, where I 
+                      create scalable, innovative, and impact-driven solutions that enhance 
+                      business efficiency and drive growth.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      As a business-oriented software engineer, my aim is to help startups 
+                      and SMBs turn ideas into production web applications.
                     </p>
                   </div>
 
@@ -75,23 +78,28 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="tel:+1234567890"
                             >
-                              +123 456 7890
+                              +1 (920) 309-6223
                             </a>
                           </h6>
                         </div>
                       </div>
                       <div className="flex">
                         <span className="text-oriange-lite dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
-                          <FaMapMarkerAlt />
+                          <FaTelegram />
                         </span>
                         <div className="space-y-1">
                           <p className="text-xs text-gray-lite dark:text-color-910">
-                            Location
+                            Telegram
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            Hong kong china
+                            <a
+                              className="hover:text-[#FA5252] duration-300 transition"
+                              href="https://t.me/dolynster"
+                              target="_blank"
+                            >
+                            @dolynster
+                            </a>
                           </h6>
                         </div>
                       </div>
@@ -106,23 +114,29 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="mailto:ibthemes21@gmail.com"
+                              href="mailto:dolynster@gmail.com"
                             >
-                              example@mail.com
+                              dolynster@gmail.com
                             </a>
                           </h6>
                         </div>
                       </div>
                       <div className="flex">
                         <span className="text-color-50 dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
-                          <FaRegCalendarAlt />
+                          <FaDiscord />
                         </span>
                         <div className="space-y-1">
                           <p className="text-xs text-gray-lite dark:text-color-910">
-                            Birthday
+                            Discord
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            May 27, 1990
+                            <a
+                              className="hover:text-[#FA5252] duration-300 transition"
+                              href="https://discordapp.com/users/1548830407695273984"
+                              target="_blank"
+                            >
+                            dolynster
+                            </a>
                           </h6>
                         </div>
                       </div>
@@ -148,7 +162,7 @@ const About = () => {
 
             <div>
               {/* Slick Slider call here  */}
-              <SliderCommon />
+              {/* <SliderCommon /> */}
             </div>
 
             {/* Common Footer call here */}

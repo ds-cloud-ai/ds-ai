@@ -71,35 +71,27 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "AI Agent" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
+                  onClick={() => handleSearch("AI Agent")}
                 >
-                  Video
+                  AI Agent
                 </li>
                 <li
                   className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "RAG" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
+                  onClick={() => handleSearch("RAG")}
                 >
-                  Web Design
+                  RAG
                 </li>
                 <li
                   className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                    test === "Generative AI" ? "text-[#FA5252]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
+                  onClick={() => handleSearch("Generative AI")}
                 >
-                  Logo
-                </li>
-                <li
-                  className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
-                  }  `}
-                  onClick={() => handleSearch("UI/UX")}
-                >
-                  Graphic Design
+                  Generative AI
                 </li>
               </ul>
 

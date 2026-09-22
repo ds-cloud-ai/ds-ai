@@ -49,17 +49,26 @@ const Resume = () => {
                 {/* Knowledges items */}
 
                 <div className="flex gap-x-3 gap-y-3 md:gap-y-6 md:gap-x-4 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">TypeScript</button>
+                  <button className="resume-btn">Python</button>
+                  <button className="resume-btn">Machine Learning</button>
+                  <button className="resume-btn">PyTorch</button>
+                  <button className="resume-btn">TensorFlow</button>
+                  <button className="resume-btn">LangChain</button>
+                  <button className="resume-btn">Claude</button>
+                  <button className="resume-btn">RAG</button>
+                  <button className="resume-btn">LlamaIndex</button>
+                  <button className="resume-btn">OpenAI</button>
+                  <button className="resume-btn">Hugging Face</button>
+                  <button className="resume-btn">Google Gemini</button>
+                  <button className="resume-btn">React/Next.js</button>
+                  <button className="resume-btn">Node.js</button>
+                  <button className="resume-btn">PostgreSQL</button>
+                  <button className="resume-btn">Docker</button>
+                  <button className="resume-btn">Kubernetes</button>
+                  <button className="resume-btn">AWS</button>
+                  <button className="resume-btn">GCP</button>
+                  <button className="resume-btn">Azure</button>
                 </div>
               </div>
             </div>

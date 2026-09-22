@@ -1,24 +1,24 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
-import work2 from "../assets/images/work_images/2.jpg";
-import work3 from "../assets/images/work_images/3.jpg";
-import work4 from "../assets/images/work_images/4.jpg";
-import work5 from "../assets/images/work_images/5.jpg";
-import work6 from "../assets/images/work_images/6.jpg";
-import work7 from "../assets/images/work_images/7.jpg";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
+import work1 from "../assets/images/work_images/ai-agent-001.jpg";
+import work2 from "../assets/images/work_images/ai-rag-002.jpg";
+import work3 from "../assets/images/work_images/generative-ai-003.jpg";
+import work4 from "../assets/images/work_images/ai-agent-004.jpg";
+import work5 from "../assets/images/work_images/ai-rag-005.jpg";
+import work6 from "../assets/images/work_images/generative-ai-006.jpg";
+import work7 from "../assets/images/work_images/ai-agent-007.jpg";
+import work8 from "../assets/images/work_images/ai-rag-008.jpg";
+import work9 from "../assets/images/work_images/generative-ai-009.jpg";
 // works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
-import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
-import workSmall4 from "../assets/images/work_images/small/4.jpg";
-import workSmall5 from "../assets/images/work_images/small/5.jpg";
-import workSmall6 from "../assets/images/work_images/small/6.jpg";
-import workSmall7 from "../assets/images/work_images/small/7.jpg";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
+import workSmall1 from "../assets/images/work_images/small/ai-agent-001.jpg";
+import workSmall2 from "../assets/images/work_images/small/ai-rag-002.jpg";
+import workSmall3 from "../assets/images/work_images/small/generative-ai-003.jpg";
+import workSmall4 from "../assets/images/work_images/small/ai-agent-004.jpg";
+import workSmall5 from "../assets/images/work_images/small/ai-rag-005.jpg";
+import workSmall6 from "../assets/images/work_images/small/generative-ai-006.jpg";
+import workSmall7 from "../assets/images/work_images/small/ai-agent-007.jpg";
+import workSmall8 from "../assets/images/work_images/small/ai-rag-008.jpg";
+import workSmall9 from "../assets/images/work_images/small/generative-ai-009.jpg";
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -139,129 +139,129 @@ const AllData = () => {
   const workItems = [
     {
       id: "1",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "AI Agent",
+      title: "Smart Resume AI",
       img: work1,
       imgSmall: workSmall1,
       bg: "#FFF0F0",
-      client: "Envato",
-      langages: "Photoshop, Figma",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "Python, TypeScript",
+      link: "",
+      linkText: "",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia placeat magnam possimus iusto blanditiis pariatur labore explicabo quo repellat hic dolorum numquam asperiores, voluptatum fugiat reiciendis aspernatur, non, odio aperiam voluptas ex tempora vitae. Dolor, consequatur quidem! Quas magni distinctio dolorum dolore natus, vel numquam accusamus. Nostrum eligendi recusandae qui tempore deserunt!",
+        "Smart AI Resume Analyzer is your all-in-one tool to analyze, optimize, and craft resumes that stand out, helping you land your dream job. Used Python-docx, PyPDF2, spaCy, scikit-learn, Plotly, NLTK, openpyxl.",
     },
     {
       id: "2",
-      tag: "Web Design",
-      title: "Aura Dione",
+      tag: "RAG",
+      title: "TalkToDoc",
       img: work2,
       imgSmall: workSmall2,
       bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.themeforest.net",
-      linkText: "themeforest.net",
+      client: "",
+      langages: "TypeScript",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Next.js App Router site providing a Better Reading Experience powered by AI. Used GPT4 and Gemini AI models.",
     },
     {
       id: "3",
-      tag: "Logo",
-      title: "Chul urina",
+      tag: "Generative AI",
+      title: "Nano Banana",
       img: work3,
       imgSmall: workSmall3,
       bg: "#FFF0F0",
-      client: "Freepik",
-      langages: "Illustrator",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
+      client: "",
+      langages: "TypeScript",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Unrestricted Open-source alternative to AI video platforms. Used Muapi.ai.",
     },
     {
       id: "4",
-      tag: "Video",
-      title: "Chul urina",
+      tag: "AI Agent",
+      title: "Multi-Channel Helpdesk",
       img: work4,
       imgSmall: workSmall4,
       bg: "#E9FAFF",
-      client: "Envato",
-      langages: "After Effect",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "Python, TypeScript",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "An open-source AI customer support agent that answers customer questions automatically across Web, Gmail, and WhatsApp. Used GPT-4o, text-embedding-3-small.",
     },
     {
       id: "5",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "RAG",
+      title: "RAG PDF Chat",
       img: work5,
       imgSmall: workSmall5,
       bg: "#FFFAE9",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "TypeScript, Python",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "A production-style, educational full-stack RAG project that demonstrates how to turn PDF documents into searchable knowledge and chat with them using modern AI models. Used LangChain, FAISS.",
     },
     {
       id: "6",
-      tag: "Video",
-      title: "Chul urina",
+      tag: "Generative AI",
+      title: "AuraOS",
       img: work6,
       imgSmall: workSmall6,
       bg: "#F4F4FF",
-      client: "Envato",
-      langages: "Vimeo",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "Python, TypeScript",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Personal Intelligence Operating System that is a persistent layer between you and a language model that gives the model something it has never had by default: continuity. Used Pinecone and Google Gemini.",
     },
     {
       id: "7",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "AI Agent",
+      title: "AI Meeting Assistant",
       img: work7,
       imgSmall: workSmall7,
       bg: "#FFF0F8",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "Rust, TypeScript, Python",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "A privacy-first AI meeting assistant that captures, transcribes, and summarizes meetings entirely on your infrastructure. Used Whisper and Parakeet models.",
     },
     {
       id: "8",
-      tag: "Web Design",
-      title: "Chul urina",
+      tag: "RAG",
+      title: "PageIndex",
       img: work8,
       imgSmall: workSmall8,
       bg: "#FFF0F8",
-      client: "Envato",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "Python",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "PageIndex is a vectorless, reasoning-based RAG engine that mirrors how humans read, delivering traceable, explainable, and context-aware retrieval, with no vector DBs or chunking.",
     },
     {
       id: "9",
-      tag: "Logo",
-      title: "Chul urina",
+      tag: "Generative AI",
+      title: "PraisonAI",
       img: work9,
       imgSmall: workSmall9,
       bg: "#FCF4FF",
-      client: "Feepik",
-      langages: "Figma",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
+      client: "",
+      langages: "Python, TypeScript",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "AI agents solving real-world problems across industries such as research & analysis, code generation, content creation, data pipelines, customer support and workflow automation. Powered by 100+ LLMs.",
     },
   ];
   const [data, setData] = useState(workItems);
@@ -362,18 +362,18 @@ const AllData = () => {
       link: "/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "Blogs",
-      link: "/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
-      name: "Contact",
-      link: "/contact",
-      icon: <RiContactsBookLine />,
-    },
+    // {
+    //   id: "04",
+    //   name: "Blogs",
+    //   link: "/blogs",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: "05",
+    //   name: "Contact",
+    //   link: "/contact",
+    //   icon: <RiContactsBookLine />,
+    // },
   ];
 
   // Menu items for Homepage Two
@@ -396,18 +396,18 @@ const AllData = () => {
       link: "/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "Blogs",
-      link: "/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
-      name: "Contact",
-      link: "/contact",
-      icon: <RiContactsBookLine />,
-    },
+    // {
+    //   id: "04",
+    //   name: "Blogs",
+    //   link: "/blogs",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: "05",
+    //   name: "Contact",
+    //   link: "/contact",
+    //   icon: <RiContactsBookLine />,
+    // },
   ];
 
   // Slider image for Clients
@@ -429,48 +429,48 @@ const AllData = () => {
     {
       id: "1",
       icon: icon,
-      title: "Ui/Ux Design",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "AI Integration",
+      des: "LLM integration, AI agents, voice interfaces (TTS/STT), NLP, LangChain.",
       color: "#D566FF",
       bg: "#FCF4FF",
     },
     {
       id: "2",
       icon: icon1,
-      title: "App Development",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Workflow Automation",
+      des: "Business Process Automation, n8n, Make, Zapier, CRM Automation, Email Automation, Event-Driven Workflows, and Human-in-the-Loop Automation.",
       color: "#DDA10C",
       bg: "#FEFAF0",
     },
     {
       id: "3",
       icon: icon2,
-      title: "Photography",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "SaaS Development",
+      des: "Web applications, subscription billing, payment integrations, database design, admin dashboards, and internal tools.",
       color: "#8774FF",
       bg: "#FCF4FF",
     },
     {
       id: "4",
       icon: icon3,
-      title: "Photography",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Document Intelligence",
+      des: "PDF Data Extraction, Contract Analysis, Invoice Processing, Form Processing, Document Classification, Document Summarization.",
       color: "#FF6080",
       bg: "#FFF4F4",
     },
     {
       id: "5",
       icon: icon4,
-      title: "Managment",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "AI Agents",
+      des: "Customer Agent, Research Agent, Multi-Agent Systems, Agent Orchestration, MCP, LangGraph.",
       color: "#FF75D8",
       bg: "#FFF0F8",
     },
     {
       id: "6",
       icon: icon5,
-      title: "Web Development",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "LLM App Development",
+      des: "OpenAI API, Anthropic Claude, Google Gemini, Llama, LangChain, LlamaIndex, Prompt Engineering, LoRA, QLoRA, and Hugging Face.",
       color: "#269FFF",
       bg: "#F3FAFF",
     },
@@ -480,51 +480,51 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2021-2023",
-      title: "Ph.D in Horriblensess ",
-      place: "ABC University, Los Angeles, CA",
+      date: "2013-2017",
+      title: "MSc in Computer Science",
+      place: "The Hong Kong University of Science and Technology",
       bg: "#FFF4F4",
     },
 
-    {
-      id: 2,
-      date: "2019 - Present",
-      title: "Sr. Software Tester",
-      place: "Google Inc.",
-      bg: "#FFF1FB",
-    },
+    // {
+    //   id: 2,
+    //   date: "",
+    //   title: "",
+    //   place: "",
+    //   bg: "#FFF1FB",
+    // },
 
-    {
-      id: 3,
-      date: "2021",
-      title: "Best Developer ",
-      place: "University Of Melbourne, NA",
-      bg: "#FFF4F4",
-    },
+    // {
+    //   id: 3,
+    //   date: "",
+    //   title: "",
+    //   place: "",
+    //   bg: "#FFF4F4",
+    // },
   ];
   // experiencesArray items for Resume page
   const experiencesArray = [
     {
       id: 1,
-      date: "2017-2021",
-      title: "Computer Science",
-      place: "Imperialize Technical Institute",
+      date: "2023 - 2025",
+      title: "AI Developer | Freelancer",
+      place: "Upwork",
       bg: "#EEF5FA",
     },
 
     {
       id: 2,
-      date: "2015-2017",
-      title: "Cr. Web Developer",
-      place: "ib-themes ltd.",
+      date: "2021 - 2022",
+      title: "Lead Full Stack Engineer",
+      place: "XTZ ART LLC",
       bg: "#F2F4FF",
     },
 
     {
       id: 3,
-      date: "2008",
-      title: "Best Writter",
-      place: "Online Typodev Soluation Ltd.",
+      date: "2018 - 2019",
+      title: "Front-end Engineer",
+      place: "RewardStyle Ltd",
       bg: "#EEF5FA",
     },
   ];
@@ -532,25 +532,25 @@ const AllData = () => {
   const awardsArray = [
     {
       id: 1,
-      date: "2015-2017",
-      title: "  Graphic Designer",
-      place: "Web Graphy, Los Angeles, CA",
+      date: "2021 - Present",
+      title: "Certified Smart Contract Developer",
+      place: "Blockchain Council",
       bg: "#FCF4FF",
     },
 
     {
       id: 2,
-      date: "2014 - 2015",
-      title: "Jr. Web Developer",
-      place: "Creative Gigs.",
+      date: "2019 - Present",
+      title: "Certified Full Stack Developer",
+      place: "GSDC",
       bg: "#FCF9F2",
     },
 
     {
       id: 3,
-      date: "2015-2017",
-      title: "Best Freelancer",
-      place: "Fiver & Upwork Level 2 & Top Rated",
+      date: "2015 - 2017",
+      title: "Top Rated Freelancer",
+      place: "Upwork.com",
       bg: "#FCF4FF",
     },
   ];
@@ -560,26 +560,26 @@ const AllData = () => {
     {
       id: "01",
       color: "#FF6464",
-      name: "Web Design",
-      number: "80",
+      name: "Front-end Development",
+      number: "85",
     },
     {
       id: "02",
       color: "#9272D4",
-      name: "Mobile App ",
+      name: "Back-end Development",
       number: "95",
     },
     {
       id: "03",
       color: "#5185D4",
-      name: "Illustrator",
-      number: "65",
+      name: "AI App Development",
+      number: "80",
     },
     {
-      id: "03",
+      id: "04",
       color: "#CA56F2",
-      name: "Photoshope",
-      number: "75",
+      name: "AI Agent Development",
+      number: "80",
     },
   ];
 

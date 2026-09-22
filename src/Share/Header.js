@@ -3,7 +3,7 @@ import { FiSun, FiMoon } from "react-icons/fi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import UseData from "../Hooks/UseData";
-import logo from "../assets/images/logo/logo.png";
+import logo from "../assets/images/logo/logo001.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +23,7 @@ const Header = () => {
               <Link className="text-5xl font-semibold" to="/">
                 {/* website logo  */}
 
-                <img className="h-[26px] lg:h-[32px]" src={logo} alt="" />
+                <img className="h-[78px] lg:h-[96px]" src={logo} alt="" />
               </Link>
               <div className="flex items-center">
                 {/* dark mode icon */}
