@@ -1,7 +1,7 @@
 import React from "react";
 import userImage from "../../assets/images/about/avatar.jpg";
 import downloadIcon from "../../assets/images/download.png";
-import cvFile from "../../assets/images/cv.webp";
+import cvFile from "../../assets/cv/cv.pdf";
 import {
   FaFacebookF,
   FaTwitter,
@@ -74,8 +74,8 @@ const HomePage = () => {
 
         {/* Dowanload button start */}
         <a
-          // href={cvFile}
-          // download
+          href={cvFile}
+          download
           className="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
         >
           <img src={downloadIcon} alt="icon" className="mr-2" />

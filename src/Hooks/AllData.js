@@ -507,7 +507,7 @@ const AllData = () => {
     {
       id: 1,
       date: "2023 - 2025",
-      title: "AI Developer | Freelancer",
+      title: "Senior AI Developer | Freelancer",
       place: "Upwork",
       bg: "#EEF5FA",
     },
@@ -515,15 +515,23 @@ const AllData = () => {
     {
       id: 2,
       date: "2021 - 2022",
-      title: "Lead Full Stack Engineer",
+      title: "Full Stack AI Developer",
       place: "XTZ ART LLC",
       bg: "#F2F4FF",
     },
 
     {
       id: 3,
-      date: "2018 - 2019",
-      title: "Front-end Engineer",
+      date: "2018 - 2020",
+      title: "Blockchain Developer",
+      place: "Upwork",
+      bg: "#EEF5FA",
+    },
+    
+    {
+      id: 4,
+      date: "2016 - 2017",
+      title: "AI Data Scientist",
       place: "RewardStyle Ltd",
       bg: "#EEF5FA",
     },
@@ -589,8 +597,8 @@ const AllData = () => {
       id: "01",
       icon: iconPhone,
       title: "Phone ",
-      item1: "+452 666 386",
-      item2: "+452 666 386",
+      item1: "",
+      item2: "",
       bg: "#FCF4FF",
     },
     {
@@ -605,7 +613,7 @@ const AllData = () => {
       id: "03",
       icon: iconMap,
       title: "Address ",
-      item1: "Maount View, Oval",
+      item1: "",
       item2: "Road, New York, USA",
       bg: "#F2F4FF",
     },
