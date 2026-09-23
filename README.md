@@ -1,2 +1,2 @@
 # ds-ai
-Portfolio as an AI engineer
+Portfolio for an AI developer
