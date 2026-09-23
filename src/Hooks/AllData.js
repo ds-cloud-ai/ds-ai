@@ -480,7 +480,7 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2013-2017",
+      date: "2011-2015",
       title: "MSc in Computer Science",
       place: "The Hong Kong University of Science and Technology",
       bg: "#FFF4F4",
