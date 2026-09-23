@@ -480,7 +480,7 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2011-2015",
+      date: "2011 - 2015",
       title: "MSc in Computer Science",
       place: "The Hong Kong University of Science and Technology",
       bg: "#FFF4F4",
@@ -523,7 +523,7 @@ const AllData = () => {
     {
       id: 3,
       date: "2018 - 2020",
-      title: "Blockchain Developer",
+      title: "Blockchain Developer | Freelancer",
       place: "Upwork",
       bg: "#EEF5FA",
     },
@@ -556,7 +556,7 @@ const AllData = () => {
 
     {
       id: 3,
-      date: "2015 - 2017",
+      date: "2018 - 2020",
       title: "Top Rated Freelancer",
       place: "Upwork.com",
       bg: "#FCF4FF",
