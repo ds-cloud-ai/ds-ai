@@ -1,4 +1,6 @@
 import React from "react";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import UseData from "../../Hooks/UseData";
 import Footer from "../../Share/Footer";
 import "../../Share/Style.css";

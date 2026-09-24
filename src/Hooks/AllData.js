@@ -508,7 +508,7 @@ const AllData = () => {
       id: 1,
       date: "2023 - 2025",
       title: "Senior AI Developer | Freelancer",
-      place: "Upwork",
+      place: "Upwork Inc",
       bg: "#EEF5FA",
     },
 
@@ -524,7 +524,7 @@ const AllData = () => {
       id: 3,
       date: "2018 - 2020",
       title: "Blockchain Developer | Freelancer",
-      place: "Upwork",
+      place: "Upwork Inc",
       bg: "#EEF5FA",
     },
     
