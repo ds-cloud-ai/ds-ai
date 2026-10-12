@@ -26,7 +26,7 @@ const HomePage = () => {
           alt=""
         />
         <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
-          Dolynster Sidorov
+          Dolynster Santos
         </h3>
         <p className="mb-4 text-[#7B7B7B]">AI Developer | SaaS | Automation</p>
         {/* Avatar Info End */}
