@@ -79,7 +79,7 @@ const About = () => {
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
                             >
-                              +1 (920) 309-6223
+                              +63 997 698 9307
                             </a>
                           </h6>
                         </div>
@@ -132,7 +132,7 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="https://discordapp.com/users/1548830407695273984"
+                              href="https://discordapp.com/"
                               target="_blank"
                             >
                             dolynster
