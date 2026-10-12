@@ -480,7 +480,7 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2011 - 2015",
+      date: "2012 - 2016",
       title: "MSc in Computer Science",
       place: "The Hong Kong University of Science and Technology",
       bg: "#FFF4F4",
@@ -506,34 +506,50 @@ const AllData = () => {
   const experiencesArray = [
     {
       id: 1,
-      date: "2023 - 2025",
-      title: "Senior AI Developer | Freelancer",
-      place: "Upwork Inc",
+      date: "Sep 2025 - Present",
+      title: "AI FUll Stack Engineer | Freelancer",
+      place: "",
       bg: "#EEF5FA",
     },
 
     {
       id: 2,
-      date: "2021 - 2022",
-      title: "Full Stack AI Developer",
-      place: "XTZ ART LLC",
+      date: "Sep 2024 - Aug 2025",
+      title: "AI FUll Stack Engineer",
+      place: "Wolfspeed",
       bg: "#F2F4FF",
     },
 
     {
       id: 3,
-      date: "2018 - 2020",
-      title: "Blockchain Developer | Freelancer",
-      place: "Upwork Inc",
+      date: "Feb 2024 - May 2024",
+      title: "AI Developer",
+      place: "Fisker Inc",
       bg: "#EEF5FA",
+    },
+
+    {
+      id: 4,
+      date: "Mar 2020 - Dec 2023",
+      title: "Blockchain Developer",
+      place: "Metararity",
+      bg: "#F2F4FF",
     },
     
     {
-      id: 4,
-      date: "2016 - 2017",
-      title: "AI Data Scientist",
-      place: "RewardStyle Ltd",
+      id: 5,
+      date: "Apr 2018 - Dec 2019",
+      title: "Full Stack Developer",
+      place: "Shift Technologies",
       bg: "#EEF5FA",
+    },
+
+    {
+      id: 6,
+      date: "Mar 2017 - Dec 2017",
+      title: "Junior Full Stack Developer",
+      place: "NanoString Technologies",
+      bg: "#F2F4FF",
     },
   ];
   // awardsArray items for Resume page
